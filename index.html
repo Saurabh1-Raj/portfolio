@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 20%px;
     background-color: rgb(9, 9, 112);
     
   }
@@ -43,6 +43,13 @@
     color: pink;
     font-size: 1.2rem;
    }
+   .button:hover{
+    background-color: aqua;
+    font-size: medium;
+    font-weight: 500;
+    color:gold;
+}
+
   .left{
     font-size: 2rem;
   }
@@ -63,8 +70,15 @@
             height: 200px;
             width: 200px;
             object-fit: cover;
-            border-radius: 50%;
-        }
+            border-radius: 50%;}
+            .size{
+                height: 30px;
+            width: 30px;
+            object-fit: cover;
+            margin-top: 5%;
+
+            }
+        
         .purple{
             color: purple;
         }
@@ -83,7 +97,13 @@
 }
 .skill{
     color: yellow;
+    
 }
+nav{
+    padding: 5%;
+    
+}
+
 .A{
     border-color: blueviolet;
    
@@ -107,8 +127,23 @@ justify-content: space-evenly;
     width: 300px;
 }
 
+.button {
+    background-color:#00b9f1;
+    color: black;
+    padding: 0 6px;
+    border-radius: 10%;
+    font-family:'Poppins',sans-serif;
+    font-weight: 600;
+    
+}
+.skill:hover{
+    color: #00b9f1;
+}
+.position{
+    position: absolute;
+    right: 8%;
 
-
+}
 
     </style>
 </head>
@@ -121,6 +156,7 @@ justify-content: space-evenly;
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">Address</a></li>
+                    <li><button class="button"> <a href="./Saurabh Final cv.pdf">Download <br>Cv</a> </button></li>
                 </ul>
             </div>
         </nav>
@@ -201,6 +237,8 @@ justify-content: space-evenly;
                         </li>
                     <li>B.Tech : Chemical Engineering
                     </li>
+                    
+                    </li>
                 </ul>
            
 
@@ -208,8 +246,13 @@ justify-content: space-evenly;
     </footer>
     <div style="text-align: center;">
     SaurabhPortfolio.com |Copyright &#169;All rights are reserved
+    <div class="position">
+        <a href="https://m.facebook.com/profile.php/?id=100031917772055&name=xhp_nt__fb__action__open_user"><img class="size"  src="./Facebook_icon.svg.png" alt=""></a>
+        <a href="https://instagram.com/i_saurabh_raj?utm_source=qr&igshid=MThlNWY1MzQwNA=="><img class="size" src="./Instagram Logo Vector Art PNG, Instagram Icon Logo, Instagram Icons, Logo Icons, Logo Clipart PNG Image For Free Download.jpeg" alt=""></a>
+        <a href="https://www.linkedin.com/in/saurabh-raj-254802223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img  class="size"  src="./174857.png" alt=""></a>
     </div>
-    
+    </div>
+   
     
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
