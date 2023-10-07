@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+
+     background-color: rgb(3, 3, 27);
+     color: white;
+     font-family: 'Poppins',sans-serif;}
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(9, 9, 112);
+    
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+    
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    color: aliceblue;
+  }
+  nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+   nav ul li a:hover{
+    color: pink;
+    font-size: 1.2rem;
+   }
+  .left{
+    font-size: 2rem;
+  }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0 ;
+            
+        }
+        .leftSection{
+            color: whitesmoke;
+            font-size: 2rem;
+            font-weight: bolder;
+            width: 60%;
+            margin: 20px 40px;
+        }
+        .Dimension{
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .purple{
+            color: purple;
+        }
+        #element{
+            color: purple;
+        }
+.SecondSection{
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+.Skills{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-left: 10%;
+
+}
+.skill{
+    color: yellow;
+}
+.A{
+    border-color: blueviolet;
+   
+}
+.footer{
+    background-color: rgb(9, 9, 112);
+    
+    display: flex;
+    padding:  23px 40px ;
+justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.footer >div{
+    width: 300px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Saurabh's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Address</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello ,My name is <span class="purple">Saurabh</span>
+                I am a third year Student 
+               <span id="element"> </span>
+            </div>
+            <div class="rightSection">
+<img  class="Dimension"src="./WhatsApp Image 2023-09-24 at 16.00.21 - Copy.png" alt="">
+            </div>
+
+
+        </section>
+
+        <hr class="A">
+        <Section class="SecondSection">
+            <h3 class="skill">Education Qualification</h3>
+            <ul>
+             <li> Cgpa till 4th Semester 7.87</li>
+             <li>Class 12 - 90.8%</li>
+<li>Achieved First rank in CBSE class 12 and obtaibed a strong JEE Mains ranking</li>
+
+<li>Secured first place in the prestigious Young Indian Scientist competition conducted by Sri Chaitanya</li>
+<li>Dominated various General Knowledge Quizzes and Public Speech events, showcasing vast knowledge 
+    and eloquence; secured first place positions in 10+ competitions, consistently outperforming 
+    competitor</li>
+    
+            </ul>
+
+        </Section>
+        <hr class="A">
+
+        <section class="Skills">
+     <div>
+        <h3><span class="skill">Technical skills:</span></h3>
+        <ul>
+            <li> Web Development Frameworks: React JS, Bootstrap</li>
+            <li>Data Analysis and Visualization: Microsoft Excel and Power BI and sql </li>
+            <li> Programming Languages: Java, C,  JavaScript, HTML, CSS</li>
+            <li> Design and Graphics: Canva, Adobe Photoshop
+            </li>
+    
+          </ul>
+          <h3 class="skill">Non-Technical Skills:</h3>
+          <ol>
+            <li> Communication Skills: Proficient in verbal and written 
+                communication</li>
+                <li>Creativity: Demonstrates innovative thinking in problem solving and 
+                    project development, contributing to unique solution and ide</li>
+                    <li> Time Management: Exceptional time management skills, meeting
+                        deadline efficiency.</li>
+            <li>Enthusiasm: Maintains a heigh level of enthusiasm and passion for 
+                task.</li>
+          
+                </ol>
+     </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first"><ul>
+                <li>Saurabh raj</li>
+                <li>Contact No :   7004242822 </li>
+                <li>Address : Patna, Bihar</li>
+            </ul></div>
+            <div class="footer-second">
+                <ul>
+                    <li> 
+  </li>
+                    <li>
+                    Email: sr.21u10768@btech.nitdgp.ac.in
+                        </li>
+                    <li>B.Tech : Chemical Engineering
+                    </li>
+                </ul>
+           
+
+        </div>
+    </footer>
+    <div style="text-align: center;">
+    SaurabhPortfolio.com |Copyright &#169;All rights are reserved
+    </div>
+    
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Fronten Developer', 'Data Analyst','& Java Developer'],
+          typeSpeed: 80,
+        });
+      </script>
+</body>
+</html>
