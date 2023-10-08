@@ -19,15 +19,17 @@
      font-family: 'Poppins',sans-serif;}
   nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    
     height: 20%px;
     background-color: rgb(9, 9, 112);
     
   }
   nav ul{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     
   }
   nav ul li {
@@ -52,7 +54,15 @@
 
   .left{
     font-size: 2rem;
+    flex: 1;
+
   }
+  .right{
+    flex: 1;
+    padding: 0;
+    margin-left: 0;
+  }
+
         .firstSection{
             display: flex;
             justify-content: space-around;
@@ -72,10 +82,12 @@
             object-fit: cover;
             border-radius: 50%;}
             .size{
-                height: 30px;
-            width: 30px;
+                
+                height: 60px;
+            width: 60px;
             object-fit: cover;
             margin-top: 5%;
+
 
             }
         
@@ -114,6 +126,7 @@ nav{
     display: flex;
     padding:  23px 40px ;
 justify-content: space-evenly;
+flex-wrap: wrap;
 
 }
 .footer ul{
@@ -140,8 +153,10 @@ justify-content: space-evenly;
     color: #00b9f1;
 }
 .position{
-    position: absolute;
-    right: 8%;
+    
+    
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
